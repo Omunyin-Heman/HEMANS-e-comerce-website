@@ -1,0 +1,29 @@
+/* Additional CSS for the grid layout */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .info {
+      margin-top: 10px;
+    }
+
+    .price {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #007185;
+    }
+  
